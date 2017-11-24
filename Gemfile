@@ -6,3 +6,11 @@ gem "pg"
 gem "activerecord"
 gem "sinatra-activerecord"
 gem "rake"
+
+group :development, :test do
+  gem 'dotenv-rails'
+end
+
+group :test do
+  gem "rspec"
+end
