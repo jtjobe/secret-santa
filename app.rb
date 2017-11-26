@@ -1,7 +1,4 @@
-require 'sinatra'
-require 'sinatra/activerecord'
-require './config/environments'
-require "./models/group"
+require "./bootstrap"
 
 class App < Sinatra::Base
   get '/' do

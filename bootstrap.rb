@@ -1,0 +1,6 @@
+require "dotenv/load"
+require "sinatra"
+require "sinatra/activerecord"
+require "./config/environments"
+require "./models/group"
+require "./app"
