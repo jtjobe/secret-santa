@@ -1,2 +1,2 @@
 require "./bootstrap"
-run App
+run SecretSanta

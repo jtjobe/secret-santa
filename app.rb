@@ -1,6 +1,6 @@
 require "./bootstrap"
 
-class App < Sinatra::Base
+class SecretSanta < Sinatra::Base
   get '/' do
     erb :index
   end
